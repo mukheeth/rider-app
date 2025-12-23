@@ -1,0 +1,57 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Flutter
+rider_app/.dart_tool/
+rider_app/.flutter-plugins
+rider_app/.flutter-plugins-dependencies
+rider_app/.packages
+rider_app/.pub-cache/
+rider_app/.pub/
+rider_app/build/
+rider_app/.gradle/
+rider_app/android/.gradle/
+rider_app/android/app/build/
+rider_app/android/.idea/
+rider_app/android/local.properties
+rider_app/ios/
+rider_app/*.iml
+rider_app/.metadata
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+
+# Test files
+test_*.ps1
+*.ps1.bak
+
+# Documentation (keep main ones, ignore temporary)
+# Keep: PROJECT_OVERVIEW.md, COMPLETE_APPLICATION_GUIDE.md, API_CONTRACTS.md
+# Ignore temporary fix guides
+
